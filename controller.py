@@ -1,15 +1,6 @@
 import numpy as np
 import math
 
-
-def sin_values(periods, add):
-    values = [math.sin(i/10) * 10 for i in range(periods*20 + add)]
-    index = 0
-    while True:
-        yield values[index]
-        index = (index + 1) % len(values)
-
-
 class controller:
     def __init__(self, pixel_a_coef):
         self.pixel_a_coef = pixel_a_coef
