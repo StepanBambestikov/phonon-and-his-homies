@@ -18,8 +18,6 @@ class controller:
         self.m = None
         self.distance = None
         self.C = None
-        self.b = np.array([[1.5, 2.5], [3.5, 4.5]])
-        self.min = np.array([[17.5, 18.5], [19.5, 2.5]])
         self.acoustic = False
         self.time_step = None
         self.k = None
